@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+      
+       <!-- <div>
+        <img src="https://newhire.hiretech.com/images/HIREtech-logo-tm.png" alt="">
+
+      </div> -->
+      <div id = "head" style="margin-top: 0px;">
+        <div class = "headMenus1">
+          <div style="position: relative; right: 180px;">
+            <img src="https://newhire.hiretech.com/images/HIREtech-logo-tm.png" alt="">
+    
+          </div>
+         
+        <div class="mailLogo">
+          <span class = "icon1">
+           <b> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
+              <path d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2H2Zm-2 9.8V4.698l5.803 3.546L0 11.801Zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586l-1.239-.757ZM16 9.671V4.697l-5.803 3.546.338.208A4.482 4.482 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671Z"/>
+              <path d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034v.21Zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791Z"/>
+            </svg></b>
+          </span> email@hiretech.com
+        </div>
+        </div>
+    
+        <div class = "headMenus2">
+          <div class = "stateLogo">
+          <span class = "icon1">
+            <b><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-microsoft-teams" viewBox="0 0 16 16">
+              <path d="M9.186 4.797a2.42 2.42 0 1 0-2.86-2.448h1.178c.929 0 1.682.753 1.682 1.682v.766Zm-4.295 7.738h2.613c.929 0 1.682-.753 1.682-1.682V5.58h2.783a.7.7 0 0 1 .682.716v4.294a4.197 4.197 0 0 1-4.093 4.293c-1.618-.04-3-.99-3.667-2.35Zm10.737-9.372a1.674 1.674 0 1 1-3.349 0 1.674 1.674 0 0 1 3.349 0Zm-2.238 9.488c-.04 0-.08 0-.12-.002a5.19 5.19 0 0 0 .381-2.07V6.306a1.692 1.692 0 0 0-.15-.725h1.792c.39 0 .707.317.707.707v3.765a2.598 2.598 0 0 1-2.598 2.598h-.013Z"/>
+              <path d="M.682 3.349h6.822c.377 0 .682.305.682.682v6.822a.682.682 0 0 1-.682.682H.682A.682.682 0 0 1 0 10.853V4.03c0-.377.305-.682.682-.682Zm5.206 2.596v-.72h-3.59v.72h1.357V9.66h.87V5.945h1.363Z"/>
+            </svg></b>
+          </span>Team
+        </div>
+        <div class = "DailyLogo">
+          <span class = "icon1">
+            <b><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
+              <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z"/>
+            </svg></b>
+          </span>contact
+        </div>
+        <div class = "accountLogo">
+          <span class = "icon1">
+            <b><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z"/>
+              <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+            </svg></b>
+          </span>Log in
+        </div>
+        <div class = "loginLogo">
+          <span class = "icon1">
+            <b><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"/>
+              <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+            </svg></b>
+          </span>Sign up
+        </div>
+      </div> 
+      
+      </div>
+      <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
+        <marquee behavior="right" direction=""><b><i style="word-break: keep-all;">Helloo Candidates...Appeal To Our Website And Get Hired To Your Dream Companies!!!</i></b></marquee>
+        <span>
+        <section id="section1" style="margin-top: 0%;">
+          <div id = "mainSection1">
+            <div class = "dropCategory">
+              <div class="menuBurgar"><span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-menu-up" viewBox="0 0 16 16">
+        <path d="M7.646 15.854a.5.5 0 0 0 .708 0L10.207 14H14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3.793l1.853 1.854zM1 9V6h14v3H1zm14 1v2a1 1 0 0 1-1 1h-3.793a1 1 0 0 0-.707.293l-1.5 1.5-1.5-1.5A1 1 0 0 0 5.793 13H2a1 1 0 0 1-1-1v-2h14zm0-5H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v2zM2 11.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 0-1h-8a.5.5 0 0 0-.5.5zm0-4a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11a.5.5 0 0 0-.5.5zm0-4a.5.5 0 0 0 .5.5h6a.5.5 0 0 0 0-1h-6a.5.5 0 0 0-.5.5z"/>
+      </svg>
+              <span></span><span> MENU </span></div></span>
+              <div class="catBurgar" >
+                <div class='clist'>PROFILE</div>
+                <div class='clist'>DASH BOARD</div>
+                <div class='clist'>YOUR APPLICATIONS</div>
+                <div class='clist'>LOG OUT</div>
+
+              </div>
+      </div>
+            <div class = "menu">
+               <div class="pro" style="position: relative; bottom: 5px;">Home</div>
+              <div class ="dropHome">
+      
+                <li type = "none" class ="home1"> Discover*</li>
+                <ul type = "none"class = "homeList1">
+                  <li   class = "homeList">Jobs</li>
+                    <li  class = "homeList">India</li>
+                      <li  class = "homeList">Abroad</li>
+                </ul>
+              </div>
+              <div class="dropShop">
+                <li type = "none" class ="shop1">web services*</li>
+                <ul type = "none"class = "shopList1">
+                  <li   class = "shopList">placements</li>
+                    <li  class = "shopList">Internships</li>
+                      <li  class = "shopList">Bootcamps</li>
+                </ul>
+              </div>
+              <div class="dropPage">
+                <li type = "none" class ="page1"> Careers*</li>
+                <ul type = "none"class = "pageList1">
+                  <li   class = "pageList">portifolio</li>
+                    <li  class = "pageList">Vaccanies</li>
+                      <li  class = "pageList">Promotions</li>
+                </ul>
+              </div>
+              <div class="pro">For Cpmanies</div>
+              <div class="ser">For Job seekers</div>
+             
+              </div>
+          
+          </div>
+          
+        </section>
+      </div>
+    </span>
+    </header>
+    <!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
+    <section class="section2">
+      <article id="article1">
+        <div class="homeOffers">
+       <h3>GET HIRED</h3>
+       <h1> Apply to your dream companies</h1>
+       <h2>Find the Job that is perfect for you</h2>
+       <button class = "jobButton">FIND JOB</button></div>
+    </article>
+    </section>
+    <!-- //////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <div class="container" id="image-card" style="margin-top: 70px;">
+      <center><h3 style="color: blue;"><b></b> <b>Find your next top tech job in 1 week.  </b></h3></center><br>
+      <div class="row">
+          <div class="col-4">
+              <div class="card" style="width: 18rem;">
+                  <img src="https://www.buyerforesight.com/wp-content/uploads/2021/01/FrontEnd-Developer.jpg" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                      <h5 class="card-title"> <b>Front-End Developer</b></h5>
+                      <p class="card-text">A Front-End Developer is responsible for developing new user-facing features, determining the structure and design of web pages, building reusable codes, optimizing page loading times, and using a variety of markup languages to create the web pages.</p>
+                      <a href="#" class="btn btn-primary" style="background: none;border-radius: 50px;color: aquamarine;">Explore more</a>
+                  </div>
+              </div>
+          </div>
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://uploads-ssl.webflow.com/5d66ab68071de80eadf14cca/5d93420e1d1537372fb1fb27_EN%20-%20open%20graph%20BE%20dev.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title"> <b>Back-End Developer</b></h5>
+                            <p class="card-text">Backend developer responsibilities include creating, maintaining, testing, and debugging the entire back end of an application or system. This includes the core application logic, databases, data and application integration, API, and other processes taking place behind the scenes.</p>
+                            <a href="#" class="btn btn-primary" style="background: none;border-radius: 50px;color: aquamarine;">Explore more</a>
+                        </div>
+                    </div>
+                </div>      
+                <div class="col-4">
+                  <div class="card" style="width: 18rem;">
+                      <img src="https://i.ytimg.com/vi/UoCnsh6x2ls/maxresdefault.jpg" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                          <h5 class="card-title"><b>Full-Satck Developer</b></h5>
+                          <p class="card-text">A Full-Stack developer is a professional responsible for working on both front-end and back-end development processes. They design, develop, and maintain fully-fledged and functioning platforms with databases or servers.</p>
+                          <a href="#" class="btn btn-primary" style="background: none;border-radius: 50px;color: aquamarine;">Explore more</a>
+                      </div>
+                  </div>
+</div>   
+
+    <!-- //////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- Accordion -->
+    
+    <div class="container" id="accord" style="margin-top: 100px;" >
+            <div class="row">
+              <div class="col">
+                <h3 style="color: blue;">
+                  You can create a free candidate profile---->
+               
+                </h3> <br><br>
+                
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                       01. What are some good questions?
+  
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        02.What is in a HTML?
+  
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        03.What is HTML with example?
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        <div class="col">
+          <img src="https://d383au3bye3rv1.cloudfront.net/static/images/optimized/C%20-%20Create%20Profile.png" width="600px" height="800px" alt="">
+        </div>
+        
+      </div>
+    </div>
+    <!-- our portfolio////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <section>
+      <h3 class="h2 text-center" style="margin-top: 100px; color: blue;"><b>OUR TOP MNC's</b></h3>
+      <aside class="h6 opacity-50 text-center;">
+        <center>
+        With this, there has been a growth in many companies. It is estimated that the top compamies fill up more than 80% of the job vacancies.Thus, we collated the list of top MNC's to full fill your dreams.</center>
+      <br><br><br><br><br>
+        <div class="container" id="frame-1" style="position: relative;left: 60px;">
+
+        <div class="row">
+            <div class="col-4">
+                <div class="card-item" style="width: 10rem;">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.yfc58ScEi40i0AezgPQEWQHaEx&pid=Api&P=0&h=180"  class="card-img-top" alt="..." />
+                    
+                </div>
+            </div>
+            <div class="col-4">
+              <div class="card-item" style="width: 10rem;">
+                  <img src="https://tse1.mm.bing.net/th?id=OIP.njGSWmga7DmIlTqts1p-FQHaCl&pid=Api&P=0&h=180"  class="card-img-top" alt="..." />
+                  
+              </div>
+          </div>
+          <div class="col-4">
+            <div class="card-item" style="width: 10rem;">
+                <img src="https://www.careersfortomorrow.com.au/wp-content/uploads/2019/08/Infosys-cft.jpg"  class="card-img-top" alt="..." />
+                
+            </div>
+        </div>
+      <div class="container" id="frame-2">
+          <div class="row">
+              <div class="col-4">
+                  <div class="card-item" style="width: 10rem;">
+                      <img src="https://tse4.mm.bing.net/th?id=OIP.1Il5K1XF272QyFu3N8WHfQHaF6&pid=Api&P=0&h=180"  class="card-img-top" alt="..." />
+                      
+                  </div>
+              </div>
+              <div class="col-4">
+                <div class="card-item" style="width: 10rem;">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.2Kj2geJpCcRI1adOJIHiCAHaD3&pid=Api&P=0&h=180"  class="card-img-top" alt="..." />
+                    
+                </div>
+            </div>
+            <div class="col-4">
+              <div class="card-item" style="width: 10rem;">
+                  <img src="https://techstory.in/wp-content/uploads/2018/08/Capgemini.jpg"  class="card-img-top" alt="..." />
+                  
+              </div>
+          </div>
+      <div class="container" id="frame-3">
+            <div class="row">
+                <div class="col-4">
+                    <div class="card-item" style="width: 10rem;">
+                        <img src="https://mma.prnewswire.com/media/1477373/TCS_Logo.jpg?p=facebook"  class="card-img-top" alt="..." />
+                        
+                    </div>
+                </div>
+                <div class="col-4">
+                  <div class="card-item" style="width: 10rem;">
+                      <img src="https://mma.prnewswire.com/media/722966/Cognizant_Logo.jpg?p=publish"  class="card-img-top" alt="..." />
+                      
+                  </div>
+
+              </div>
+              <div class="col-4">
+                <div class="card-item" style="width: 10rem;">
+                    <img src="https://4.bp.blogspot.com/-eJs7CS7U4po/WRGMswiti9I/AAAAAAAACR4/sOpVo76Kw28E483oUu5CMhp4ZgVRVDwrACLcB/s1600/_69e4d716-3492-11e7-9993-2f2d999294f7.jpg"  class="card-img-top" alt="..." />
+                    
+                </div>
+            </div>
+          <div class="container" id="frame-3">
+            <div class="row">
+                <div class="col-4">
+                    <div class="card-item" style="width: 10rem;">
+                        <img src="https://economiasustentable.com/wp-content/uploads/2020/10/accenture-1536x864.jpg"  class="card-img-top" alt="..." />
+                        
+                    </div>
+                </div>
+                <div class="col-4">
+                  <div class="card-item" style="width: 10rem;">
+                      <img src="https://blogs.microsoft.com/wp-content/uploads/2012/08/8867.Microsoft_5F00_Logo_2D00_for_2D00_screen.jpg"  class="card-img-top" alt="..." />
+                      
+                  </div>
+
+              </div>
+              <div class="col-4">
+                <div class="card-item" style="width: 10rem;">
+                    <img src="https://1.bp.blogspot.com/-ZsEnpy0pmPs/U4cQJaLcA7I/AAAAAAAAAGc/vmE_VSriiq4/s1600/hcl_logo.png"  class="card-img-top" alt="..." />
+                    
+                </div>
+            </div>
+            <div class="container" id="frame-3">
+              <div class="row">
+                  <div class="col-4">
+                      <div class="card-item" style="width: 10rem;">
+                          <img src="https://www.thaibuddhist.com/wp-content/uploads/2019/09/%E0%B9%80%E0%B8%A5%E0%B8%82%E0%B9%80%E0%B8%94%E0%B9%87%E0%B8%94%E0%B8%8B%E0%B8%AD%E0%B8%87%E0%B8%94%E0%B8%B1%E0%B8%87-facebook-e1568719387333.jpg"  class="card-img-top" alt="..." />
+                          
+                      </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="card-item" style="width: 10rem;">
+                        <img src="https://cloudfront-us-east-2.images.arcpublishing.com/reuters/VIZAILKEOZIG3CJO5MMH47XDWM.jpg"  class="card-img-top" alt="..." />
+                        
+                    </div>
+  
+                </div>
+                <div class="col-4">
+                  <div class="card-item" style="width: 10rem;">
+                      <img src="http://www.mytotalretail.com/wp-content/uploads/sites/14/2016/01/amazon.com_.jpg"  class="card-img-top" alt="..." />
+                    
+                  </div>
+              </div>
+      
+      
+    <!-- our portfolio////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+            <section class="section7" style="margin-top: 300px; margin-left: 0px;">
+              <!--USE  BOOTSTRAP CARDS OR TO GET ATLEAST SIMILAR THEN USE FIGURE&FIGCAPTION-->
+              <!-- <img class="services"src="./mini-resources/more-service-1.jpg" alt="">
+              <img class="services"src="./mini-resources/more-service-2.jpg" alt="">
+              <img class="services"src="./mini-resources/more-service-3.jpg" alt=""> -->
+              <div class="container">
+                  
+                  <div class="card" style="width:350px">
+                    <img class="card-img-top" src="  https://www.carvermostardi.com/cmos/wp-content/uploads/2018/05/professional_headshots_tampa_011.jpg" alt="Card image" style="width:100%;">
+                    <div class="card-body">
+                      <center><h4 class="card-title">Catherin</h4>
+                      <p class="card-text">Et erchitecto provident deleniti facere repellat nobis iste.Id facere quia quae dolores dolorem tempore</p>
+                      <a href="#" class="btn btn-primary stretched-link">Reviews</a></center>
+                    </div>
+                  </div>
+               
+                </div>
+                <div class="container">
+                 
+                  <div class="card" style="width:350px">
+                    <img class="card-img-top" src="https://i.pinimg.com/originals/83/10/ab/8310ab709f70727b92fa1a6917897c82.jpg" alt="Card image" style="width:100%">
+                    
+                    <div class="card-body">
+                      <center><h4 class="card-title">Joshepine</h4>
+                     <p class="card-text">Ut quas omnis est.Non et aut tempora dignissimos similique in didnissims. Sit incident et odit iusto</p>
+                      <a href="#" class="btn btn-primary stretched-link">Reviews</a></center>
+                    </div>
+                  </div>
+                </div>
+                <div class="container">
+                  
+                  <div class="card" style="width:350px">
+                    <img class="card-img-top" src="https://locuspeople.nl/wp-content/uploads/2018/05/ik-ben-young-professional-vrouw.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                      <center><h4 class="card-title">Tara</h4>
+                      <p class="card-text">Modi tu et delectus.Modi nobis saepe voluptates nostrum.Sed quod consequatur quia provident dera</p>
+                      <a href="#" class="btn btn-primary stretched-link">Reviews</a></center>
+                    </div>
+                  </div>
+                </div>
+                
+          </section>
+  </section>
+  <!-- footer//////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+  <footer>
+    <!-- Site footer -->
+    <br><br><br>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>HIRETECH</h6>
+            <p class="text-justify">HireTech <i>a job portal </i>is on a mission to make it dead simple for leading Indian startups to hire the top 2% of tech talent.
+            </p>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Categories</h6>
+            <ul class="footer-links">
+              <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
+              <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
+              <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
+              <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
+              <li><a href="http://scanfcode.com/category/android/">Android</a></li>
+              <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+
+              <li><a href="http://scanfcode.com/about/"></a></li>
+              <li><a href="http://scanfcode.com/contact/"></a></li>
+              <li><a href="http://scanfcode.com/contribute-at-scanfcode/"></a></li>
+              <li><a href="http://scanfcode.com/privacy-policy/"></a></li>
+              <li><a href="http://scanfcode.com/sitemap/"></a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
+         <a href="#">HireTech</a>.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <!-- <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li> 
+               -->
+
+               <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+              </svg></li>
+              <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+              </svg></li>
+              <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+              </svg></li>
+              <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+              </svg></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+</footer>
+
+</footer>
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

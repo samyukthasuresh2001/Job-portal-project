@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+#head{
+    display: flex;
+    column-gap: 30%;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid black;
+    background-color: darkblue;
+    color: white;
+
+    
+}
+.headMenus1{
+    display: flex;
+    column-gap: 50px;
+    position: relative;
+    left: 100px;
+    cursor: pointer;
+}
+
+.headMenus2{
+    display: flex;
+    column-gap: 50px;
+    position: relative;
+    right: 100px;
+    cursor: pointer;
+}
+
+.icon1{
+    color: wheat;
+    display: flex;
+    column-gap:10px;
+    position: relative;
+    right: 20px;
+    top:20px
+    
+}
+svg{
+    position: relative;
+    top: 3px;
+}
+
+marquee{
+    background-color: greenyellow;
+    border: greenyellow;
+    padding: 5px;
+    margin: 0%;
+}
+#mainSection1{
+    /* margin-top: 0px;
+    padding-top: 0px; */
+    display: flex;
+    column-gap: 50%;
+    border: 1px solid rgba(77, 72, 72, 0.146);
+    align-items: center;
+    height: 80px;
+    background-color: black;
+    color: white;
+    
+    }
+    
+    .menu{
+        display: flex;
+        column-gap:5%;
+        position: relative;
+        right:20%;
+        
+        align-items: center;
+        cursor: pointer;
+        
+    }
+    .dropCategory{
+        position: relative;
+        left: 230px;
+        top:103px;
+        padding:10px;
+    }
+    .homeList,.shopList,.pageList{
+        padding: 5px;
+        width: 100px;
+        padding: 10px;
+    }
+    .homeList1,.shopList1,.pageList1{
+        position: relative;
+        top: 20px;
+        visibility: hidden;
+    }
+    .dropHome,.dropShop,.dropPage{
+        position: relative;
+        top:88px;
+    }.catBurgar{
+        position: relative;
+        top:20px;
+        background-color: orangered;
+        /* color: black; */
+        visibility: hidden;
+    }
+    .catBurgar.catvisible, .homeList1.homevisible, .shopList1.shopvisible, .pageList1.pagevisible{
+        visibility: visible;
+    }
+    .clist:hover, .homeList:hover, .shopList:hover,.pageList:hover {
+        background-color: black;
+    }
+    .clist,.homeList,.shopList,.pageList{
+        padding:10px;
+        border: 1px solid gray;
+        background-color: gray;
+        color: white;
+        cursor: pointer ;
+        
+    }
+    .pro{
+      position: relative;
+      top: 6px;
+    }
+    .menuBurgar:hover{
+    background-color: red;
+    }
+    .menuBurgar{
+        padding: 10px;
+        cursor: pointer;
+        width: 200px;
+        position: relative;
+        top: 1px; 
+    }
+    .home1,.shop1,.page1,.pro,.ser,.cant{
+        border: 1px solid black;
+        padding: 10px;
+    }
+    .home1:hover,.shop1:hover,.page1:hover,.pro:hover,.ser:hover,.cant:hover{
+        background-color: red;
+    }
+    /* ////////////////////////////////////////////////////////////////////////////////////// */
+
+    .section2{
+            
+            background-image: url('https://www.moneytaskforce.com/wp-content/uploads/2020/07/were-hiring.jpg');
+            background-position:center;
+            background-repeat:no-repeat;
+            background-size:cover;
+            animation: img 8s infinite linear;
+            height: 630px;
+            
+            
+        }
+        .homeOffers{
+            position: relative;
+            top: 150px;
+            left: 50px;
+            color: white;
+        }
+        .jobButton{
+            background-color: black;
+            /* padding: 5px; */
+            padding-right: 40px;
+            padding-left: 40px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            color: white;
+        }
+
+        /* //////////////////////////////////////////////////////////////////////////////////////////// */
+        .section7{
+            display: flex;
+            position: relative;
+            right: 24px;
+            
+        }
+        /* //////////////////////////////////////////////////////////////////////////////// */
+ 
+       
+        .site-footer
+        {
+          background-color:#26272b;
+          padding:45px 0 20px;
+          font-size:15px;
+          line-height:24px;
+          color:#737373;
+        
+        }
+        .site-footer hr
+        {
+          border-top-color:#bbb;
+          opacity:0.5
+        }
+        .site-footer hr.small
+        {
+          margin:20px 0
+        }
+        .site-footer h6
+        {
+          color:#fff;
+          font-size:16px;
+          text-transform:uppercase;
+          margin-top:5px;
+          letter-spacing:2px
+        }
+        .site-footer a
+        {
+          color:#737373;
+        }
+        .site-footer a:hover
+        {
+          color:#3366cc;
+          text-decoration:none;
+        }
+        .footer-links
+        {
+          padding-left:0;
+          list-style:none
+        }
+        .footer-links li
+        {
+          display:block
+        }
+        .footer-links a
+        {
+          color:#737373
+        }
+        .footer-links a:active,.footer-links a:focus,.footer-links a:hover
+        {
+          color:#3366cc;
+          text-decoration:none;
+        }
+        .footer-links.inline li
+        {
+          display:inline-block
+        }
+        .site-footer .social-icons
+        {
+          text-align:right
+        }
+        .site-footer .social-icons a
+        {
+          width:40px;
+          height:40px;
+          line-height:40px;
+          margin-left:6px;
+          margin-right:0;
+          border-radius:100%;
+          background-color:#33353d
+        }
+        .copyright-text
+        {
+          margin:0
+        }
+        @media (max-width:991px)
+        {
+          .site-footer [class^=col-]
+          {
+            margin-bottom:30px
+          }
+        }
+        @media (max-width:767px)
+        {
+          .site-footer
+          {
+            padding-bottom:0
+          }
+          .site-footer .copyright-text,.site-footer .social-icons
+          {
+            text-align:center
+          }
+        }
+        .social-icons
+        {
+          padding-left:0;
+          margin-bottom:0;
+          list-style:none
+        }
+        .social-icons li
+        {
+          display:inline-block;
+          margin-bottom:4px
+        }
+        .social-icons li.title
+        {
+          margin-right:15px;
+          text-transform:uppercase;
+          color:#96a2b2;
+          font-weight:700;
+          font-size:13px
+        }
+        .social-icons a{
+          background-color:#eceeef;
+          color:#818a91;
+          font-size:16px;
+          display:inline-block;
+          line-height:44px;
+          width:44px;
+          height:44px;
+          text-align:center;
+          margin-right:8px;
+          border-radius:100%;
+          -webkit-transition:all .2s linear;
+          -o-transition:all .2s linear;
+          transition:all .2s linear
+        }
+        .social-icons a:active,.social-icons a:focus,.social-icons a:hover
+        {
+          color:#fff;
+          background-color:#29aafe
+        }
+        .social-icons.size-sm a
+        {
+          line-height:34px;
+          height:34px;
+          width:34px;
+          font-size:14px
+        }
+        .social-icons a.facebook:hover
+        {
+          background-color:#3b5998
+        }
+        .social-icons a.twitter:hover
+        {
+          background-color:#00aced
+        }
+        .social-icons a.linkedin:hover
+        {
+          background-color:#007bb6
+        }
+        .social-icons a.dribbble:hover
+        {
+          background-color:#ea4c89
+        }
+        @media (max-width:767px)
+        {
+          .social-icons li.title
+          {
+            display:block;
+            margin-right:0;
+            font-weight:600
+          }
+        }
+     
